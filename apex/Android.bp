@@ -17,7 +17,7 @@ apex_vndk {
     manifest: "apex_manifest.current.json",
     key: "com.android.vndk.current.key",
     certificate: ":com.android.vndk.current.certificate",
-    file_contexts: "com.android.vndk",
+    file_contexts: ":com.android.vndk-file_contexts",
 }
 
 apex_key {
@@ -37,7 +37,7 @@ apex_vndk {
     key: "com.android.vndk.v29.key",
     certificate: ":com.android.vndk.v29.certificate",
     vndk_version: "29",
-    file_contexts: "com.android.vndk",
+    file_contexts: ":com.android.vndk-file_contexts",
 }
 
 apex_key {
@@ -57,7 +57,7 @@ apex_vndk {
     key: "com.android.vndk.v28.key",
     certificate: ":com.android.vndk.v28.certificate",
     vndk_version: "28",
-    file_contexts: "com.android.vndk",
+    file_contexts: ":com.android.vndk-file_contexts",
 }
 
 apex_key {
@@ -77,7 +77,7 @@ apex_vndk {
     key: "com.android.vndk.v27.key",
     certificate: ":com.android.vndk.v27.certificate",
     vndk_version: "27",
-    file_contexts: "com.android.vndk",
+    file_contexts: ":com.android.vndk-file_contexts",
 }
 
 apex_key {
