@@ -20,6 +20,12 @@ apex_vndk {
     file_contexts: ":com.android.vndk-file_contexts",
 }
 
+override_apex {
+    name: "com.android.vndk.current.on_vendor",
+    base: "com.android.vndk.current",
+    vendor: true,
+}
+
 apex_key {
     name: "com.android.vndk.current.key",
     public_key: "com.android.vndk.current.pubkey",
