@@ -46,3 +46,8 @@
 
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/apex/com.android.vndk.*)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system_ext/apex/com.android.vndk.*)
+
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/etc/llndk.libraries.*.txt)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/etc/vndksp.libraries.*.txt)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/etc/vndkcore.libraries.*.txt)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/etc/vndkprivate.libraries.*.txt)
