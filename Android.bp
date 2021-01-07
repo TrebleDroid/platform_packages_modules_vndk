@@ -29,5 +29,9 @@ vndk_libraries_txt {
 }
 
 vndk_libraries_txt {
+  name: "vndkproduct.libraries.txt",
+}
+
+vndk_libraries_txt {
   name: "vndkcorevariant.libraries.txt",
 }
