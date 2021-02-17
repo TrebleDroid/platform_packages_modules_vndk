@@ -18,6 +18,7 @@ apex_vndk {
     key: "com.android.vndk.current.key",
     certificate: ":com.android.vndk.current.certificate",
     file_contexts: ":com.android.vndk-file_contexts",
+    updatable: false,
 }
 
 override_apex {
@@ -45,6 +46,7 @@ apex_vndk {
     vndk_version: "30",
     system_ext_specific: true,
     file_contexts: ":com.android.vndk-file_contexts",
+    updatable: false,
 }
 
 apex_key {
@@ -66,6 +68,7 @@ apex_vndk {
     vndk_version: "29",
     system_ext_specific: true,
     file_contexts: ":com.android.vndk-file_contexts",
+    updatable: false,
 }
 
 apex_key {
@@ -87,6 +90,7 @@ apex_vndk {
     vndk_version: "28",
     system_ext_specific: true,
     file_contexts: ":com.android.vndk-file_contexts",
+    updatable: false,
 }
 
 apex_key {
