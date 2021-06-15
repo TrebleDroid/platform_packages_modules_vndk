@@ -23,6 +23,7 @@ apex_vndk {
     certificate: ":com.android.vndk.current.certificate",
     file_contexts: ":com.android.vndk-file_contexts",
     updatable: false,
+    generate_hashtree: false,
 }
 
 override_apex {
