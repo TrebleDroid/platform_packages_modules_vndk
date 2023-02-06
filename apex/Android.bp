@@ -82,9 +82,3 @@ apex_vndk {
     system_ext_specific: true,
 }
 
-apex_vndk {
-    name: "com.android.vndk.v28",
-    defaults: ["vndk-apex-defaults"],
-    vndk_version: "28",
-    system_ext_specific: true,
-}
