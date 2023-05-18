@@ -48,6 +48,13 @@ android_app_certificate {
 }
 
 apex_vndk {
+    name: "com.android.vndk.v34",
+    defaults: ["vndk-apex-defaults"],
+    vndk_version: "34",
+    system_ext_specific: true,
+}
+
+apex_vndk {
     name: "com.android.vndk.v33",
     defaults: ["vndk-apex-defaults"],
     vndk_version: "33",
