@@ -63,10 +63,3 @@ apex_vndk {
     vndk_version: "31",
     system_ext_specific: true,
 }
-
-apex_vndk {
-    name: "com.android.vndk.v30",
-    defaults: ["vndk-apex-defaults"],
-    vndk_version: "30",
-    system_ext_specific: true,
-}
